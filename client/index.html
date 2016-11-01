@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Trivia Time!</title>
+    <link href="stylesheets/reset.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>    
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1>Trivia Time!</h1>
+        <nav>
+          <a href="index.html">Home</a> |
+          <a href="#">FAQ</a> 
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+      <div class="container">
+        <div class="tabs">
+          <a href=""><span class="active">Answer a Question!</span></a>
+        </div>
+        <div class="content">
+          <p class ="question"> </p>
+            <div class="ui input">
+             <input type="text" name="answer" placeholder="Input answer..">
+            </div> 
+            <button class="ui button"> Final Answer </button>
+
+          <div class = "createNew">
+            <p> Submit a question </p>
+            <div class = "ui input">
+              <input type="text" name="createdQ" placeholder="Input question..">
+             <input type="text" name="answerQ" placeholder="Input answer">
+            </div> 
+            <button class="ui button"> Submit </button>
+            <p class="questionStored"> </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="javascripts/app.js"></script>
+  </body>
+</html>
